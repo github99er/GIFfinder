@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+body{
+  background: url(https://media2.giphy.com/media/f3pCigw1Iy8lOt1jKH/giphy.gif?cid=ecf05e47b6d9551f4ad1f11a9bf0f1c54cd4997e06581574&rid=giphy.gif);
+  min-height: 100%;
+  min-width: 1024px;
+  no-repeat: center center fixed;
+  background-size: cover;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: -1px;
+  margin-left: 0px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
